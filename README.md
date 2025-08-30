@@ -1,6 +1,14 @@
 # copy-wsl-path.yazi
 
+## Installation
+
+```sh
+ya pkg add WantChane/copy-wsl-path
+```
+
 ## Usage
+
+### In WSL
 
 ```toml
 [[mgr.prepend_keymap]]
@@ -8,6 +16,8 @@ on = ["c", "w"]
 run = "plugin copy-wsl-path win"
 desc = "Copy the file path in windows"
 ```
+
+### In Windows
 
 ```toml
 [[mgr.prepend_keymap]]
